@@ -1,0 +1,67 @@
+/*Clases*/
+.container {
+	max-width: 500px;
+	width: 75%;
+
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.imgcolumn {
+	background-color: #FFFFFF;
+	border-radius: 15px;
+}
+
+/*IDs*/
+#logintable {
+	border: 3px solid #38468F;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#loginbody {
+	font-family: "Comic Sans MS";
+	height: 90vh;
+
+	position: relative;
+}
+
+/*Otros*/
+table {
+	border-radius: 15px;
+	background-color: #DDDDDD;
+	table-layout: fixed;
+	height: 100%;
+	width: 50vw;
+}
+body {
+	background: linear-gradient(rgba(117, 117, 117, 1), rgba(255, 255, 255, 1));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+form {
+	background-color: #38468F;
+	padding: 10px;
+	border-radius: 15px;
+	color: #FFFFFF;
+}
+input[type="text"],input[type="password"], button {
+	border-radius: 10px;
+}
+
+button:hover {
+	color: #FFFFFF;
+	background-color: #518DED;
+}
+button:active {
+	color: #FFFFFF;
+	background-color: #2D367A;
+}
